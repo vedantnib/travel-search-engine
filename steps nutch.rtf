@@ -1,0 +1,24 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2638
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 19. Run `bin/nutch inject crawl/crawldb urls/seeds.txt` from `NUTCH_HOME/runtime/local/`\
+20.  Run `bin/nutch generate crawl/crawldb crawl/segments`\
+21. Run s1=`ls -d crawl/segments/2* | tail -1`\
+22. Run `bin/nutch fetch $s1`\
+23. Run `bin/nutch parse $s1`\
+24. Run `bin/nutch updatedb crawl/crawldb $s1`\
+25. Run `bin/nutch generate crawl/crawldb crawl/segments -topN 1000`\
+26. Run s2=`ls -d crawl/segments/2* | tail -1`\
+27. run `echo $s2`\
+28. Run `bin/nutch fetch $s2`\
+28. Run `bin/nutch parse $s2`\
+29. Run `bin/nutch updatedb crawl/crawldb $s2`\
+30. Run `bin/nutch invertlinks crawl/linkdb -dir crawl/segments`\
+31. Run `bin/nutch index crawl/crawldb/ -linkdb crawl/linkdb/ $s3 -filter -normalize`\
+32. Now go to Solr Server and click `Core selector` and then `nutch`\
+33. Enter your query in `q` field and set `fl` to `content` and set `df` to `text`. \
+}
