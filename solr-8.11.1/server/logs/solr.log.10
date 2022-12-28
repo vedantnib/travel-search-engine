@@ -1,0 +1,288 @@
+2022-05-04 13:51:13.159 INFO  (main) [   ] o.e.j.u.log Logging initialized @1721ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-05-04 13:51:13.483 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 18+36-2087
+2022-05-04 13:51:13.491 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///Users/vedantnibandhe/Desktop/solr-8.11.1/server/contexts/] at interval 0
+2022-05-04 13:51:13.836 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2022-05-04 13:51:13.849 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2022-05-04 13:51:13.850 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2022-05-04 13:51:13.852 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2022-05-04 13:51:13.912 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2022-05-04 13:51:13.915 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.11.1
+2022-05-04 13:51:13.915 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2022-05-04 13:51:13.915 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /Users/vedantnibandhe/desktop/solr-8.11.1
+2022-05-04 13:51:13.916 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2022-05-04T13:51:13.916277Z
+2022-05-04 13:51:13.930 INFO  (main) [   ] o.a.s.c.SolrPaths Using system property solr.solr.home: /Users/vedantnibandhe/desktop/solr-8.11.1/server/solr
+2022-05-04 13:51:13.931 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/vedantnibandhe/desktop/solr-8.11.1/server/solr/solr.xml
+2022-05-04 13:51:14.073 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@5524cca1, but no JMX reporters were configured - adding default JMX reporter.
+2022-05-04 13:51:14.612 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2022-05-04 13:51:14.798 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@5524b72f[provider=null,keyStore=null,trustStore=null]
+2022-05-04 13:51:14.798 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@5524b72f[provider=null,keyStore=null,trustStore=null]
+2022-05-04 13:51:14.974 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@2c7a8af2[provider=null,keyStore=null,trustStore=null]
+2022-05-04 13:51:14.974 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@2c7a8af2[provider=null,keyStore=null,trustStore=null]
+2022-05-04 13:51:15.021 WARN  (main) [   ] o.a.s.c.CoreContainer Not all security plugins configured!  authentication=disabled authorization=disabled.  Solr is only as secure as you make it. Consider configuring authentication/authorization before exposing Solr to users internal or external.  See https://s.apache.org/solrsecurity for more info
+2022-05-04 13:51:15.176 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient core cache for max 2147483647 cores with initial capacity of 1024
+2022-05-04 13:51:15.186 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2022-05-04 13:51:15.281 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@5524cca1
+2022-05-04 13:51:15.282 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@5524cca1
+2022-05-04 13:51:15.288 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@5524cca1
+2022-05-04 13:51:15.347 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 3 core definitions underneath /Users/vedantnibandhe/desktop/solr-8.11.1/server/solr
+2022-05-04 13:51:15.348 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [travelop, nutch, travel]
+2022-05-04 13:51:15.570 INFO  (coreLoadExecutor-13-thread-1) [   x:travelop] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.11.1
+2022-05-04 13:51:15.570 INFO  (coreLoadExecutor-13-thread-2) [   x:nutch] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.11.1
+2022-05-04 13:51:15.576 INFO  (coreLoadExecutor-13-thread-3) [   x:travel] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.11.1
+2022-05-04 13:51:15.588 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@74e47444{/solr,file:///Users/vedantnibandhe/Desktop/solr-8.11.1/server/solr-webapp/webapp/,AVAILABLE}{/Users/vedantnibandhe/Desktop/solr-8.11.1/server/solr-webapp/webapp}
+2022-05-04 13:51:15.619 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@23d1e5d0{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2022-05-04 13:51:15.620 INFO  (main) [   ] o.e.j.s.Server Started @4184ms
+2022-05-04 13:51:15.643 WARN  (coreLoadExecutor-13-thread-1) [   x:travelop] o.a.s.c.SolrConfig solrconfig.xml: <jmx> is no longer supported, use solr.xml:/metrics/reporter section instead
+2022-05-04 13:51:15.643 WARN  (coreLoadExecutor-13-thread-2) [   x:nutch] o.a.s.c.SolrConfig solrconfig.xml: <jmx> is no longer supported, use solr.xml:/metrics/reporter section instead
+2022-05-04 13:51:15.643 WARN  (coreLoadExecutor-13-thread-3) [   x:travel] o.a.s.c.SolrConfig solrconfig.xml: <jmx> is no longer supported, use solr.xml:/metrics/reporter section instead
+2022-05-04 13:51:15.763 INFO  (coreLoadExecutor-13-thread-3) [   x:travel] o.a.s.s.IndexSchema Schema name=nutch
+2022-05-04 13:51:15.772 INFO  (coreLoadExecutor-13-thread-1) [   x:travelop] o.a.s.s.IndexSchema Schema name=nutch
+2022-05-04 13:51:15.774 INFO  (coreLoadExecutor-13-thread-2) [   x:nutch] o.a.s.s.IndexSchema Schema name=nutch
+2022-05-04 13:51:15.801 WARN  (coreLoadExecutor-13-thread-3) [   x:travel] o.a.s.D.s.TrieDateField Solr loaded a deprecated plugin/analysis class [solr.TrieDateField]. Please consult documentation how to replace it accordingly.
+2022-05-04 13:51:15.809 WARN  (coreLoadExecutor-13-thread-2) [   x:nutch] o.a.s.D.s.TrieDoubleField Solr loaded a deprecated plugin/analysis class [solr.TrieDoubleField]. Please consult documentation how to replace it accordingly.
+2022-05-04 13:51:15.809 WARN  (coreLoadExecutor-13-thread-1) [   x:travelop] o.a.s.D.s.TrieFloatField Solr loaded a deprecated plugin/analysis class [solr.TrieFloatField]. Please consult documentation how to replace it accordingly.
+2022-05-04 13:51:15.811 WARN  (coreLoadExecutor-13-thread-3) [   x:travel] o.a.s.D.s.TrieIntField Solr loaded a deprecated plugin/analysis class [solr.TrieIntField]. Please consult documentation how to replace it accordingly.
+2022-05-04 13:51:15.813 WARN  (coreLoadExecutor-13-thread-3) [   x:travel] o.a.s.D.s.LatLonType Solr loaded a deprecated plugin/analysis class [solr.LatLonType]. Please consult documentation how to replace it accordingly.
+2022-05-04 13:51:15.816 WARN  (coreLoadExecutor-13-thread-1) [   x:travelop] o.a.s.D.s.TrieLongField Solr loaded a deprecated plugin/analysis class [solr.TrieLongField]. Please consult documentation how to replace it accordingly.
+2022-05-04 13:51:15.914 WARN  (coreLoadExecutor-13-thread-3) [   x:travel] o.a.s.D.s.SynonymFilterFactory Solr loaded a deprecated plugin/analysis class [solr.SynonymFilterFactory]. Please consult documentation how to replace it accordingly.
+2022-05-04 13:51:15.915 WARN  (coreLoadExecutor-13-thread-1) [   x:travelop] o.a.s.D.s.WordDelimiterFilterFactory Solr loaded a deprecated plugin/analysis class [solr.WordDelimiterFilterFactory]. Please consult documentation how to replace it accordingly.
+2022-05-04 13:51:16.126 INFO  (coreLoadExecutor-13-thread-1) [   x:travelop] o.a.s.s.IndexSchema Loaded schema nutch/1.5 with uniqueid field id
+2022-05-04 13:51:16.126 INFO  (coreLoadExecutor-13-thread-2) [   x:nutch] o.a.s.s.IndexSchema Loaded schema nutch/1.5 with uniqueid field id
+2022-05-04 13:51:16.136 INFO  (coreLoadExecutor-13-thread-3) [   x:travel] o.a.s.s.IndexSchema Loaded schema nutch/1.5 with uniqueid field id
+2022-05-04 13:51:16.175 INFO  (coreLoadExecutor-13-thread-2) [   x:nutch] o.a.s.c.CoreContainer Creating SolrCore 'nutch' using configuration from instancedir /Users/vedantnibandhe/desktop/solr-8.11.1/server/solr/nutch, trusted=true
+2022-05-04 13:51:16.205 INFO  (coreLoadExecutor-13-thread-1) [   x:travelop] o.a.s.c.CoreContainer Creating SolrCore 'travelop' using configuration from instancedir /Users/vedantnibandhe/desktop/solr-8.11.1/server/solr/travelop, trusted=true
+2022-05-04 13:51:16.208 INFO  (coreLoadExecutor-13-thread-3) [   x:travel] o.a.s.c.CoreContainer Creating SolrCore 'travel' using configuration from instancedir /Users/vedantnibandhe/desktop/solr-8.11.1/server/solr/travel, trusted=true
+2022-05-04 13:51:16.228 INFO  (coreLoadExecutor-13-thread-2) [   x:nutch] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.nutch' (registry 'solr.core.nutch') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@5524cca1
+2022-05-04 13:51:16.228 INFO  (coreLoadExecutor-13-thread-1) [   x:travelop] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.travelop' (registry 'solr.core.travelop') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@5524cca1
+2022-05-04 13:51:16.228 INFO  (coreLoadExecutor-13-thread-3) [   x:travel] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.travel' (registry 'solr.core.travel') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@5524cca1
+2022-05-04 13:51:16.281 INFO  (coreLoadExecutor-13-thread-3) [   x:travel] o.a.s.c.SolrCore [[travel] ] Opening new SolrCore at [/Users/vedantnibandhe/desktop/solr-8.11.1/server/solr/travel], dataDir=[/Users/vedantnibandhe/desktop/solr-8.11.1/server/solr/travel/data/]
+2022-05-04 13:51:16.281 INFO  (coreLoadExecutor-13-thread-1) [   x:travelop] o.a.s.c.SolrCore [[travelop] ] Opening new SolrCore at [/Users/vedantnibandhe/desktop/solr-8.11.1/server/solr/travelop], dataDir=[/Users/vedantnibandhe/desktop/solr-8.11.1/server/solr/travelop/data/]
+2022-05-04 13:51:16.281 INFO  (coreLoadExecutor-13-thread-2) [   x:nutch] o.a.s.c.SolrCore [[nutch] ] Opening new SolrCore at [/Users/vedantnibandhe/desktop/solr-8.11.1/server/solr/nutch], dataDir=[/Users/vedantnibandhe/desktop/solr-8.11.1/server/solr/nutch/data/]
+2022-05-04 13:51:17.381 INFO  (coreLoadExecutor-13-thread-1) [   x:travelop] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2022-05-04 13:51:17.381 INFO  (coreLoadExecutor-13-thread-2) [   x:nutch] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2022-05-04 13:51:17.381 INFO  (coreLoadExecutor-13-thread-3) [   x:travel] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2022-05-04 13:51:17.382 INFO  (coreLoadExecutor-13-thread-3) [   x:travel] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2022-05-04 13:51:17.382 INFO  (coreLoadExecutor-13-thread-2) [   x:nutch] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2022-05-04 13:51:17.382 INFO  (coreLoadExecutor-13-thread-1) [   x:travelop] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2022-05-04 13:51:17.403 INFO  (coreLoadExecutor-13-thread-2) [   x:nutch] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2022-05-04 13:51:17.403 INFO  (coreLoadExecutor-13-thread-3) [   x:travel] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2022-05-04 13:51:17.403 INFO  (coreLoadExecutor-13-thread-2) [   x:nutch] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2022-05-04 13:51:17.403 INFO  (coreLoadExecutor-13-thread-3) [   x:travel] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2022-05-04 13:51:17.413 INFO  (coreLoadExecutor-13-thread-1) [   x:travelop] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2022-05-04 13:51:17.413 INFO  (coreLoadExecutor-13-thread-1) [   x:travelop] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2022-05-04 13:51:17.625 INFO  (coreLoadExecutor-13-thread-1) [   x:travelop] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /Users/vedantnibandhe/desktop/solr-8.11.1/server/solr/travelop/conf
+2022-05-04 13:51:17.625 INFO  (coreLoadExecutor-13-thread-3) [   x:travel] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /Users/vedantnibandhe/desktop/solr-8.11.1/server/solr/travel/conf
+2022-05-04 13:51:17.625 INFO  (coreLoadExecutor-13-thread-2) [   x:nutch] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /Users/vedantnibandhe/desktop/solr-8.11.1/server/solr/nutch/conf
+2022-05-04 13:51:17.646 INFO  (coreLoadExecutor-13-thread-3) [   x:travel] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2022-05-04 13:51:17.646 INFO  (coreLoadExecutor-13-thread-1) [   x:travelop] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2022-05-04 13:51:17.646 INFO  (coreLoadExecutor-13-thread-2) [   x:nutch] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2022-05-04 13:51:17.652 INFO  (coreLoadExecutor-13-thread-2) [   x:nutch] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxQueryFrequency=0.01,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4}
+2022-05-04 13:51:17.652 INFO  (coreLoadExecutor-13-thread-1) [   x:travelop] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxQueryFrequency=0.01,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4}
+2022-05-04 13:51:17.652 INFO  (coreLoadExecutor-13-thread-3) [   x:travel] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxQueryFrequency=0.01,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4}
+2022-05-04 13:51:17.670 INFO  (coreLoadExecutor-13-thread-2) [   x:nutch] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2022-05-04 13:51:17.670 INFO  (coreLoadExecutor-13-thread-1) [   x:travelop] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2022-05-04 13:51:17.670 INFO  (coreLoadExecutor-13-thread-3) [   x:travel] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2022-05-04 13:51:17.691 INFO  (searcherExecutor-19-thread-1-processing-x:nutch) [   x:nutch] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2022-05-04 13:51:17.691 INFO  (searcherExecutor-18-thread-1-processing-x:travel) [   x:travel] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2022-05-04 13:51:17.691 INFO  (searcherExecutor-19-thread-1-processing-x:nutch) [   x:nutch] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2022-05-04 13:51:17.691 INFO  (searcherExecutor-18-thread-1-processing-x:travel) [   x:travel] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2022-05-04 13:51:17.711 INFO  (searcherExecutor-18-thread-1-processing-x:travel) [   x:travel] o.a.s.c.SolrCore [travel]  Registered new searcher autowarm time: 0 ms
+2022-05-04 13:51:17.711 INFO  (searcherExecutor-19-thread-1-processing-x:nutch) [   x:nutch] o.a.s.c.SolrCore [nutch]  Registered new searcher autowarm time: 0 ms
+2022-05-04 13:51:17.715 INFO  (searcherExecutor-17-thread-1-processing-x:travelop) [   x:travelop] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2022-05-04 13:51:17.715 INFO  (searcherExecutor-17-thread-1-processing-x:travelop) [   x:travelop] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2022-05-04 13:51:17.719 INFO  (searcherExecutor-17-thread-1-processing-x:travelop) [   x:travelop] o.a.s.c.SolrCore [travelop]  Registered new searcher autowarm time: 0 ms
+2022-05-04 13:52:15.560 INFO  (qtp1311844206-26) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=best+food+in+dallas&df=text} hits=1076 status=0 QTime=141
+2022-05-04 13:53:56.400 INFO  (qtp1311844206-21) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=best+food+places+in+dallas&df=text&row=30} hits=1076 status=0 QTime=31
+2022-05-04 13:54:33.681 INFO  (qtp1311844206-22) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=tourist+places+&df=text&row=30} hits=316 status=0 QTime=26
+2022-05-04 14:03:13.277 INFO  (qtp1311844206-28) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=statue+of+liberty&df=text&row=30} hits=1047 status=0 QTime=16
+2022-05-04 14:03:49.935 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=things+to+do+in+new+york+city&df=text&row=30} hits=1141 status=0 QTime=27
+2022-05-04 14:04:15.659 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=tourist+places&df=text&row=30} hits=316 status=0 QTime=17
+2022-05-04 14:04:23.538 INFO  (qtp1311844206-25) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=tourist+places&df=text&row=30} hits=316 status=0 QTime=2
+2022-05-04 14:07:39.379 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=book+a+cab&df=text&row=30} hits=1090 status=0 QTime=30
+2022-05-04 14:07:57.054 INFO  (qtp1311844206-28) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=book+a+cab&df=text&row=30} hits=1090 status=0 QTime=5
+2022-05-04 14:08:05.868 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=book+a+taxi&df=text&row=30} hits=1090 status=0 QTime=23
+2022-05-04 14:08:40.792 INFO  (qtp1311844206-25) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=book+a+taxi&df=text&row=30} hits=1090 status=0 QTime=3
+2022-05-04 14:08:41.663 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=book+a+taxi&df=text&row=30} hits=1090 status=0 QTime=1
+2022-05-04 14:08:41.998 INFO  (qtp1311844206-28) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=book+a+taxi&df=text&row=30} hits=1090 status=0 QTime=1
+2022-05-04 14:08:42.212 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=book+a+taxi&df=text&row=30} hits=1090 status=0 QTime=1
+2022-05-04 14:08:42.482 INFO  (qtp1311844206-25) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=book+a+taxi&df=text&row=30} hits=1090 status=0 QTime=2
+2022-05-04 14:08:45.701 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=book+a+taxi&df=text&row=30} hits=1090 status=0 QTime=2
+2022-05-04 14:08:48.942 INFO  (qtp1311844206-28) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=book+a+taxi&df=text&row=30} hits=1090 status=0 QTime=4
+2022-05-04 14:09:06.823 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=book+a+taxi+in+san+francisco&df=text&row=30} hits=1124 status=0 QTime=33
+2022-05-04 14:10:39.465 INFO  (qtp1311844206-25) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=book+a+taxi+in+san+francisco&df=text&row=30} hits=1124 status=0 QTime=9
+2022-05-04 14:12:28.823 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=flights+to+hawai&df=text&row=30} hits=1114 status=0 QTime=27
+2022-05-04 14:16:23.680 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=flights+to+hawai&df=text&row=30} hits=1114 status=0 QTime=11
+2022-05-04 14:16:31.385 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=flights+to+hawai&df=text&row=30} hits=1114 status=0 QTime=7
+2022-05-04 14:17:35.738 INFO  (qtp1311844206-25) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=Indian+foods&df=text&row=30} hits=268 status=0 QTime=20
+2022-05-04 14:18:57.376 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=Indian+foods&df=text&row=30} hits=268 status=0 QTime=14
+2022-05-04 14:20:57.389 INFO  (qtp1311844206-26) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=things+to+do+in+new+york+city&df=text&row=30} hits=1141 status=0 QTime=9
+2022-05-04 14:21:49.977 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=things+to+do+in+new+york+city&df=text&row=30} hits=1141 status=0 QTime=22
+2022-05-04 14:39:51.755 INFO  (qtp1311844206-22) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals&df=text&row=30} hits=176 status=0 QTime=38
+2022-05-04 15:32:22.513 INFO  (qtp1311844206-22) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals&df=text&row=30} hits=176 status=0 QTime=19
+2022-05-04 15:36:35.781 INFO  (qtp1311844206-22) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=rentals&df=text&row=30} hits=77 status=0 QTime=39
+2022-05-04 15:37:56.616 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=rental&df=text&row=30} hits=87 status=0 QTime=17
+2022-05-04 15:40:38.677 INFO  (qtp1311844206-21) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rental&df=text&row=30} hits=190 status=0 QTime=33
+2022-05-04 15:42:59.792 INFO  (qtp1311844206-21) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rental&df=text&row=30} hits=190 status=0 QTime=8
+2022-05-04 15:43:27.384 INFO  (qtp1311844206-26) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=live&df=text&row=30} hits=228 status=0 QTime=20
+2022-05-04 15:44:52.386 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=live&df=text&row=30} hits=228 status=0 QTime=6
+2022-05-04 15:44:53.273 INFO  (qtp1311844206-22) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=live&df=text&row=30} hits=228 status=0 QTime=2
+2022-05-04 15:44:53.471 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=live&df=text&row=30} hits=228 status=0 QTime=1
+2022-05-04 15:44:55.141 INFO  (qtp1311844206-26) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=live&df=text&row=30} hits=228 status=0 QTime=2
+2022-05-04 15:44:58.513 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=live&df=text&row=30} hits=228 status=0 QTime=3
+2022-05-04 15:46:13.984 INFO  (qtp1311844206-22) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=live&df=text&row=30} hits=228 status=0 QTime=3
+2022-05-04 15:48:37.394 INFO  (qtp1311844206-21) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=live&df=text&row=30} hits=228 status=0 QTime=13
+2022-05-04 15:49:26.539 INFO  (qtp1311844206-26) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=live&df=text&row=30} hits=228 status=0 QTime=19
+2022-05-04 15:55:38.477 INFO  (qtp1311844206-28) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=live&df=text&row=30} hits=228 status=0 QTime=10
+2022-05-04 15:55:49.744 INFO  (qtp1311844206-22) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=lve&df=text&row=30} hits=0 status=0 QTime=20
+2022-05-04 15:58:57.855 INFO  (qtp1311844206-25) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals&df=text&row=30} hits=79 status=0 QTime=15
+2022-05-04 15:58:58.698 INFO  (qtp1311844206-26) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals+college+mxp+greenville&df=text&row=30} hits=104 status=0 QTime=12
+2022-05-04 15:59:22.831 INFO  (qtp1311844206-24) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals&df=text&row=30} hits=79 status=0 QTime=15
+2022-05-04 15:59:23.613 INFO  (qtp1311844206-22) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals+college+mxp+greenville&df=text&row=30} hits=104 status=0 QTime=1
+2022-05-04 15:59:28.813 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals&df=text&row=30} hits=79 status=0 QTime=4
+2022-05-04 15:59:33.367 INFO  (qtp1311844206-26) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals+policy+around+way&df=text&row=30} hits=976 status=0 QTime=14
+2022-05-04 15:59:35.391 INFO  (qtp1311844206-24) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals&df=text&row=30} hits=79 status=0 QTime=7
+2022-05-04 15:59:38.763 INFO  (qtp1311844206-22) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals&df=text&row=30} hits=79 status=0 QTime=10
+2022-05-04 15:59:40.241 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals+policy+around+way&df=text&row=30} hits=976 status=0 QTime=4
+2022-05-04 15:59:40.523 INFO  (qtp1311844206-26) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals+college+mxp+greenville&df=text&row=30} hits=104 status=0 QTime=6
+2022-05-04 15:59:44.889 INFO  (qtp1311844206-24) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals&df=text&row=30} hits=79 status=0 QTime=2
+2022-05-04 15:59:49.195 INFO  (qtp1311844206-22) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals+policy+around+way&df=text&row=30} hits=976 status=0 QTime=3
+2022-05-04 16:00:06.835 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=vcation&df=text&row=30} hits=0 status=0 QTime=6
+2022-05-04 16:00:18.067 INFO  (qtp1311844206-26) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=vcation&df=text&row=30} hits=0 status=0 QTime=7
+2022-05-04 16:00:28.774 INFO  (qtp1311844206-24) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=vcation&df=text&row=30} hits=0 status=0 QTime=4
+2022-05-04 16:08:26.523 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr&df=text&row=30} hits=2 status=0 QTime=24
+2022-05-04 16:08:36.593 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals&df=text&row=30} hits=176 status=0 QTime=2
+2022-05-04 16:08:40.298 INFO  (qtp1311844206-26) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals+one+privacy+one&df=text&row=30} hits=1015 status=0 QTime=32
+2022-05-04 16:08:43.647 INFO  (qtp1311844206-24) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals&df=text&row=30} hits=176 status=0 QTime=3
+2022-05-04 16:08:44.242 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals+per+rentals+car&df=text&row=30} hits=307 status=0 QTime=6
+2022-05-04 16:08:51.514 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals&df=text&row=30} hits=176 status=0 QTime=16
+2022-05-04 16:08:52.085 INFO  (qtp1311844206-22) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals+per+rentals+car&df=text&row=30} hits=307 status=0 QTime=4
+2022-05-04 16:09:05.190 INFO  (qtp1311844206-24) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals&df=text&row=30} hits=79 status=0 QTime=7
+2022-05-04 16:09:09.311 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals+policy+around+way&df=text&row=30} hits=976 status=0 QTime=9
+2022-05-04 16:09:12.240 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals&df=text&row=30} hits=79 status=0 QTime=12
+2022-05-04 16:09:13.045 INFO  (qtp1311844206-26) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals+cody+roc+delta&df=text&row=30} hits=138 status=0 QTime=12
+2022-05-04 16:18:56.162 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=hatels+in+texas&df=text&row=30} hits=1053 status=0 QTime=48
+2022-05-04 16:20:17.397 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restorants+in+neveda&df=text&row=30} hits=1053 status=0 QTime=39
+2022-05-04 16:20:34.244 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restorants+in+neveda&df=text&row=30} hits=1053 status=0 QTime=14
+2022-05-04 16:20:44.857 INFO  (qtp1311844206-26) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restorants+in+neveda&df=text&row=30} hits=1053 status=0 QTime=34
+2022-05-04 16:21:11.142 INFO  (qtp1311844206-25) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restorants&df=text&row=30} hits=0 status=0 QTime=18
+2022-05-04 16:21:24.473 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restorants&df=text&row=30} hits=0 status=0 QTime=3
+2022-05-04 16:22:30.918 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr&df=text&row=30} hits=2 status=0 QTime=27
+2022-05-04 16:23:36.548 INFO  (qtp1311844206-26) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr&df=text&row=30} hits=2 status=0 QTime=11
+2022-05-04 16:23:54.652 INFO  (qtp1311844206-25) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals&df=text&row=30} hits=176 status=0 QTime=7
+2022-05-04 16:25:00.574 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals&df=text&row=30} hits=176 status=0 QTime=14
+2022-05-04 16:25:01.312 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals+per+rentals+car&df=text&row=30} hits=307 status=0 QTime=18
+2022-05-04 16:28:02.920 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restorants+in+neveda&df=text&row=30} hits=1053 status=0 QTime=39
+2022-05-04 16:28:08.402 INFO  (qtp1311844206-26) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restorants+in+neveda&df=text&row=30} hits=1053 status=0 QTime=11
+2022-05-04 16:28:12.075 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restorants+in+neveda&df=text&row=30} hits=1053 status=0 QTime=4
+2022-05-04 16:28:22.652 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restorants+&df=text&row=30} hits=0 status=0 QTime=16
+2022-05-04 16:28:28.476 INFO  (qtp1311844206-21) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restorants+&df=text&row=30} hits=0 status=0 QTime=13
+2022-05-04 16:28:38.087 INFO  (qtp1311844206-26) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restrants+&df=text&row=30} hits=0 status=0 QTime=25
+2022-05-04 16:28:43.579 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restrants+&df=text&row=30} hits=0 status=0 QTime=21
+2022-05-04 16:28:47.049 INFO  (qtp1311844206-22) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restrants+&df=text&row=30} hits=0 status=0 QTime=4
+2022-05-04 16:28:57.291 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restrants+&df=text&row=30} hits=0 status=0 QTime=6
+2022-05-04 16:29:01.976 INFO  (qtp1311844206-26) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restrants+&df=text&row=30} hits=0 status=0 QTime=11
+2022-05-04 16:29:11.190 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restrants+nevada&df=text&row=30} hits=54 status=0 QTime=24
+2022-05-04 16:29:12.145 INFO  (qtp1311844206-22) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restrants+nevada+support+california+like&df=text&row=30} hits=788 status=0 QTime=17
+2022-05-04 16:31:14.035 INFO  (qtp1311844206-24) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restrants+nevada&df=text&row=30} hits=54 status=0 QTime=16
+2022-05-04 16:31:15.008 INFO  (qtp1311844206-26) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restrants+nevada+support+california+like&df=text&row=30} hits=788 status=0 QTime=5
+2022-05-04 16:31:31.743 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restrants+nevada&df=text&row=30} hits=54 status=0 QTime=16
+2022-05-04 16:31:53.488 INFO  (qtp1311844206-22) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restrants+nevada&df=text&row=30} hits=54 status=0 QTime=11
+2022-05-04 16:31:54.408 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restrants+nevada+support+california+like&df=text&row=30} hits=788 status=0 QTime=2
+2022-05-04 16:32:13.287 INFO  (qtp1311844206-26) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=restrants+nevada&df=text&row=30} hits=54 status=0 QTime=13
+2022-05-04 16:33:32.164 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cristmas+celebration&df=text&row=30} hits=36 status=0 QTime=23
+2022-05-04 16:33:33.512 INFO  (qtp1311844206-22) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cristmas+celebration+us+even+youre&df=text&row=30} hits=869 status=0 QTime=18
+2022-05-04 16:33:56.788 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cristmas+celebration&df=text&row=30} hits=36 status=0 QTime=18
+2022-05-04 16:36:35.888 INFO  (qtp1311844206-25) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=traking+places+near+me&df=text&row=30} hits=625 status=0 QTime=54
+2022-05-04 16:36:41.194 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=traking+places+near+me+find+like+see&df=text&row=30} hits=993 status=0 QTime=13
+2022-05-04 16:37:11.289 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=trkking+places+near+me&df=text&row=30} hits=625 status=0 QTime=35
+2022-05-04 16:37:16.491 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=trkking+places+near+me+find+like+see&df=text&row=30} hits=993 status=0 QTime=24
+2022-05-04 16:37:26.782 INFO  (qtp1311844206-24) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=trkking+places+near+me&df=text&row=30} hits=625 status=0 QTime=15
+2022-05-04 16:38:20.336 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=urope+tourist+places&df=text&row=30} hits=316 status=0 QTime=40
+2022-05-04 16:38:23.263 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=urope+tourist+places&df=text&row=30} hits=316 status=0 QTime=2
+2022-05-04 16:38:26.190 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=urope+tourist+places+visit+tour+attractions&df=text&row=30} hits=672 status=0 QTime=7
+2022-05-04 16:39:01.960 INFO  (qtp1311844206-24) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=hatels+in+texas&df=text&row=30} hits=1053 status=0 QTime=10
+2022-05-04 16:39:06.479 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=hatels+in+texas+ale+wine+brewing&df=text&row=30} hits=1054 status=0 QTime=18
+2022-05-04 16:39:20.942 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=hatels+in+texas&df=text&row=30} hits=1053 status=0 QTime=18
+2022-05-04 16:41:52.405 INFO  (qtp1311844206-25) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cheap+flights+in+dallas&df=text&row=30} hits=1083 status=0 QTime=36
+2022-05-04 16:42:27.776 INFO  (qtp1311844206-24) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cheap+flights+in+dallas&df=text&row=30} hits=1083 status=0 QTime=14
+2022-05-04 16:43:43.829 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals+near+me&df=text&row=30} hits=647 status=0 QTime=46
+2022-05-04 16:44:10.883 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals+near+me&df=text&row=30} hits=647 status=0 QTime=15
+2022-05-04 16:45:34.379 INFO  (qtp1311844206-22) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=best+restaurants+in+california&df=text&row=30} hits=1076 status=0 QTime=26
+2022-05-04 16:45:52.079 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=best+restaurants+in+california&df=text&row=30} hits=1076 status=0 QTime=11
+2022-05-04 16:46:22.879 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=best+hotels&df=text&row=30} hits=810 status=0 QTime=33
+2022-05-04 16:46:40.999 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=best+hotels&df=text&row=30} hits=810 status=0 QTime=12
+2022-05-04 19:44:32.327 INFO  (qtp1311844206-25) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=holdays+locations&df=text&row=30} hits=143 status=0 QTime=210
+2022-05-04 19:44:41.631 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=holdays+locations&df=text&row=30} hits=143 status=0 QTime=26
+2022-05-04 19:44:42.562 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=holdays+locations+us+blog+use&df=text&row=30} hits=1033 status=0 QTime=49
+2022-05-04 19:44:54.878 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=holdays+locations&df=text&row=30} hits=143 status=0 QTime=18
+2022-05-04 19:48:29.136 INFO  (qtp1311844206-25) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=holdays&df=text&row=30} hits=0 status=0 QTime=18
+2022-05-04 19:48:42.302 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals&df=text&row=30} hits=79 status=0 QTime=20
+2022-05-04 19:48:43.151 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals+jetblue+milan+cr&df=text&row=30} hits=132 status=0 QTime=20
+2022-05-04 19:49:07.178 INFO  (qtp1311844206-21) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals&df=text&row=30} hits=79 status=0 QTime=4
+2022-05-04 19:53:08.149 INFO  (qtp1311844206-25) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals&df=text&row=30} hits=79 status=0 QTime=52
+2022-05-04 19:53:09.013 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals+airfarewatchdog+ith+ithaca&df=text&row=30} hits=108 status=0 QTime=48
+2022-05-04 19:53:15.728 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals&df=text&row=30} hits=79 status=0 QTime=2
+2022-05-04 19:53:19.744 INFO  (qtp1311844206-21) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals+youre+copa+lufthansa&df=text&row=30} hits=127 status=0 QTime=17
+2022-05-04 19:54:57.988 INFO  (qtp1311844206-28) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr&df=text&row=30} hits=2 status=0 QTime=22
+2022-05-04 19:57:48.903 INFO  (qtp1311844206-21) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr&df=text&row=30} hits=2 status=0 QTime=14
+2022-05-04 19:57:49.131 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=or&df=text&row=30} hits=862 status=0 QTime=25
+2022-05-04 19:58:02.449 INFO  (qtp1311844206-24) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals+in+nevada&df=text&row=30} hits=1059 status=0 QTime=15
+2022-05-04 19:58:04.788 INFO  (qtp1311844206-28) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals+in+nevada+syr+milan+tampico&df=text&row=30} hits=1060 status=0 QTime=15
+2022-05-04 19:58:13.680 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals+in+nevada&df=text&row=30} hits=1059 status=0 QTime=10
+2022-05-04 19:58:19.798 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals+in+nevada+view+support+way&df=text&row=30} hits=1099 status=0 QTime=17
+2022-05-04 20:25:30.565 INFO  (qtp1311844206-26) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals+in+nevada&df=text&row=30} hits=1059 status=0 QTime=21
+2022-05-04 20:25:32.914 INFO  (qtp1311844206-28) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rentals+in+nevada+casper+milan+syracuse&df=text&row=30} hits=1060 status=0 QTime=14
+2022-05-04 20:25:56.489 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals+&df=text&row=30} hits=176 status=0 QTime=2
+2022-05-04 20:25:57.267 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals++per+car+rentals&df=text&row=30} hits=307 status=0 QTime=2
+2022-05-04 20:26:00.825 INFO  (qtp1311844206-21) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals+&df=text&row=30} hits=176 status=0 QTime=11
+2022-05-04 20:26:03.523 INFO  (qtp1311844206-28) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals+&df=text&row=30} hits=176 status=0 QTime=3
+2022-05-04 20:26:07.236 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals+&df=text&row=30} hits=176 status=0 QTime=5
+2022-05-04 20:26:10.319 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals+&df=text&row=30} hits=176 status=0 QTime=1
+2022-05-04 20:26:12.266 INFO  (qtp1311844206-21) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals+&df=text&row=30} hits=176 status=0 QTime=1
+2022-05-04 20:26:13.024 INFO  (qtp1311844206-28) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals++per+car+rentals&df=text&row=30} hits=307 status=0 QTime=0
+2022-05-04 20:26:15.589 INFO  (qtp1311844206-24) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals+&df=text&row=30} hits=176 status=0 QTime=3
+2022-05-04 20:26:19.248 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals++english+privacy+one&df=text&row=30} hits=1079 status=0 QTime=20
+2022-05-04 20:26:24.295 INFO  (qtp1311844206-21) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals+&df=text&row=30} hits=176 status=0 QTime=8
+2022-05-04 20:26:25.057 INFO  (qtp1311844206-28) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals++per+car+rentals&df=text&row=30} hits=307 status=0 QTime=2
+2022-05-04 20:37:49.229 INFO  (qtp1311844206-26) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rental&df=text&row=30} hits=190 status=0 QTime=11
+2022-05-04 20:38:12.749 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rental&df=text&row=30} hits=190 status=0 QTime=1
+2022-05-04 20:44:42.293 INFO  (qtp1311844206-25) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rental+in+neveda&df=text&row=30} hits=1062 status=0 QTime=29
+2022-05-04 20:44:44.594 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rental+in+neveda+hn+rental+pedro&df=text&row=30} hits=1062 status=0 QTime=6
+2022-05-04 20:45:01.783 INFO  (qtp1311844206-24) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rental+in+neveda&df=text&row=30} hits=1062 status=0 QTime=1
+2022-05-04 20:45:07.754 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cr+rental+in+neveda+angeles+find+conditions&df=text&row=30} hits=1101 status=0 QTime=9
+2022-05-04 21:38:12.252 INFO  (qtp1311844206-25) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals&df=text&row=30} hits=176 status=0 QTime=94
+2022-05-04 21:38:12.933 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals+per+car+rentals&df=text&row=30} hits=307 status=0 QTime=5
+2022-05-04 21:38:16.838 INFO  (qtp1311844206-24) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals&df=text&row=30} hits=176 status=0 QTime=3
+2022-05-04 21:38:20.375 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals+english+privacy+one&df=text&row=30} hits=1079 status=0 QTime=4
+2022-05-04 21:49:14.335 INFO  (qtp1311844206-25) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cheap+flights+&df=text&row=30} hits=337 status=0 QTime=57
+2022-05-04 21:49:18.059 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cheap+flights++airlines+promo+may&df=text&row=30} hits=731 status=0 QTime=12
+2022-05-04 21:57:04.919 INFO  (qtp1311844206-24) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=cheap+flights+&df=text&row=30} hits=337 status=0 QTime=8
+2022-05-04 21:58:01.887 INFO  (qtp1311844206-19) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=tripadvisor&df=text&row=30} hits=28 status=0 QTime=20
+2022-05-04 21:58:30.672 INFO  (qtp1311844206-28) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=landmarks+paris&df=text&row=30} hits=157 status=0 QTime=12
+2022-05-04 21:58:50.701 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=landmarks+paris&df=text&row=30} hits=157 status=0 QTime=10
+2022-05-04 21:59:03.503 INFO  (qtp1311844206-20) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=landmarks+paris+every+inc+sightseeing&df=text&row=30} hits=560 status=0 QTime=15
+2022-05-04 21:59:34.577 INFO  (qtp1311844206-21) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=landmarks+paris&df=text&row=30} hits=157 status=0 QTime=8
+2022-05-04 22:07:53.014 INFO  (qtp1311844206-25) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals&df=text&row=30} hits=176 status=0 QTime=12
+2022-05-04 22:08:15.158 INFO  (qtp1311844206-27) [   x:travelop] o.a.s.c.S.Request [travelop]  webapp=/solr path=/query params={q=car+rentals&df=text&row=30} hits=176 status=0 QTime=8
+2022-05-04 22:14:08.015 INFO  (ShutdownMonitor) [   ] o.e.j.s.AbstractConnector Stopped ServerConnector@23d1e5d0{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2022-05-04 22:14:08.017 INFO  (ShutdownMonitor) [   ] o.e.j.s.session node0 Stopped scavenging
+2022-05-04 22:14:08.097 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=303846650
+2022-05-04 22:14:08.163 INFO  (coreCloseExecutor-33-thread-3) [   ] o.a.s.c.SolrCore [travelop]  CLOSING SolrCore org.apache.solr.core.SolrCore@4ef8da6
+2022-05-04 22:14:08.164 INFO  (coreCloseExecutor-33-thread-1) [   ] o.a.s.c.SolrCore [travel]  CLOSING SolrCore org.apache.solr.core.SolrCore@7e5f4d8b
+2022-05-04 22:14:08.163 INFO  (coreCloseExecutor-33-thread-2) [   ] o.a.s.c.SolrCore [nutch]  CLOSING SolrCore org.apache.solr.core.SolrCore@dfbe214
+2022-05-04 22:14:08.167 INFO  (coreCloseExecutor-33-thread-2) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.nutch tag=SolrCore@dfbe214
+2022-05-04 22:14:08.170 INFO  (coreCloseExecutor-33-thread-2) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@5a762f0: rootName = null, domain = solr.core.nutch, service url = null, agent id = null] for registry solr.core.nutch/com.codahale.metrics.MetricRegistry@50d86d5
+2022-05-04 22:14:08.279 INFO  (coreCloseExecutor-33-thread-1) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.travel tag=SolrCore@7e5f4d8b
+2022-05-04 22:14:08.279 INFO  (coreCloseExecutor-33-thread-1) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@756f71dd: rootName = null, domain = solr.core.travel, service url = null, agent id = null] for registry solr.core.travel/com.codahale.metrics.MetricRegistry@1fef70f6
+2022-05-04 22:14:08.303 INFO  (coreCloseExecutor-33-thread-2) [   ] o.a.s.u.DirectUpdateHandler2 Committing on IndexWriter.close()  ... SKIPPED (unnecessary).
+2022-05-04 22:14:08.363 INFO  (coreCloseExecutor-33-thread-3) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.travelop tag=SolrCore@4ef8da6
+2022-05-04 22:14:08.364 INFO  (coreCloseExecutor-33-thread-3) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@3567d642: rootName = null, domain = solr.core.travelop, service url = null, agent id = null] for registry solr.core.travelop/com.codahale.metrics.MetricRegistry@339d2912
+2022-05-04 22:14:08.369 INFO  (coreCloseExecutor-33-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 Committing on IndexWriter.close()  ... SKIPPED (unnecessary).
+2022-05-04 22:14:08.395 INFO  (coreCloseExecutor-33-thread-3) [   ] o.a.s.u.DirectUpdateHandler2 Committing on IndexWriter.close()  ... SKIPPED (unnecessary).
+2022-05-04 22:14:08.442 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node tag=null
+2022-05-04 22:14:08.443 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@6af5bbd0: rootName = null, domain = solr.node, service url = null, agent id = null] for registry solr.node/com.codahale.metrics.MetricRegistry@76b832ca
+2022-05-04 22:14:08.452 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm tag=null
+2022-05-04 22:14:08.453 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@7d57dbb5: rootName = null, domain = solr.jvm, service url = null, agent id = null] for registry solr.jvm/com.codahale.metrics.MetricRegistry@71292352
+2022-05-04 22:14:08.456 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty tag=null
+2022-05-04 22:14:08.456 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@630b6190: rootName = null, domain = solr.jetty, service url = null, agent id = null] for registry solr.jetty/com.codahale.metrics.MetricRegistry@2ace3c6d
+2022-05-04 22:14:08.561 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@74e47444{/solr,null,STOPPED}{/Users/vedantnibandhe/Desktop/solr-8.11.1/server/solr-webapp/webapp}
